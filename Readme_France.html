@@ -1,0 +1,34 @@
+Vous trouverez en fichier joint 2 fichiers :
+- France.pde : Fichier processing. Contient le dessin des villes contenus dans le fichier Villes.tsv
+- City.pde : Contient la classe City, qui gère les données et le dessin des villes.
+
+Les villes sont séparés en 2 catégories :
+- Celles sous la valeur de seuil de densité
+- Celles au dessus de la valeur de densité
+
+Pour faire varier le seuil de population, appuyez sur : 
+- * pour multiplier ce seuil par 2
+- / pour diviser ce seuil par 2
+
+
+Seules les villes au dessus du seuils sont affichés. 
+Ces villes sont dessinés avec des sphères régulières, dont la taille représente la population de la ville. Cela permet de le voir au premier coup d'oeil.
+
+Lors de la selection d'une ville, qui se fait en gardant la ville sous la souris, la ville va devenir rouge, et s'animer. 
+Rouge car c'est une couleur visible, et contraste avec le blanc. 
+L'animation est une variable visuelle de premier ordre, elle permet d'etre encore plus visible que la simple taille.
+
+La couleur à l'intérieur représente leur altitude : Plus c'est clair, plus c'est haut. L'altitude n'est pas très important, donc on utilise une variable visuelle moins importante.
+
+
+Les villes en dessous du seuil sont dessinés en couleur. Bleu pour les villes proche de la mer, vert pour celles a hauteur moyenne, et rouge pour les plus hautes
+Bleu : Eau, mer, bas.
+Vert : Herbe, moyen.
+Rouge : Extreme, montagne.
+
+Code réutilisé : 
+Celui du TP : Certaines parties etaient donnés.
+Celui sur les différentes pages de la doc : Chaque fonction est accompagné d'exemples sur le site de processing.
+C'est tout!
+
+Je n'ai pas été plus loin que ce qui est obligatoire. C'est a dire, le tp2 question 6
